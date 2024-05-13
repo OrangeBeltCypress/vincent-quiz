@@ -1,0 +1,22 @@
+.question-box{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+img{
+max-width:50%;
+max-height:40vmin;
+}
+
+.answers{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5vmin;
+    column-gap: 5vmin;
+}
+
+.answer{
+    font-size:3vmin;
+    padding:1vmin;
+    border-radius: 10px;
+}
